@@ -5,4 +5,4 @@ how_much = gets.chomp.to_i
 print "How many weeks will you work?"
 weeks = gets.chomp.to_i
 total = hours * how_much * weeks.to_i
-puts "You will make #{total} dollars!" 
+puts "You will make $#{total} dollars!" 
